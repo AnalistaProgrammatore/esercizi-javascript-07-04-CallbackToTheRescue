@@ -13,7 +13,6 @@ class Stack {
     constructor() {
         this.store = []
         this.top = 0
-
     }
 
     length() {
@@ -39,9 +38,7 @@ class Stack {
             }
             pos++;
         }
-
         if (s.length() > 0) {
-            console.log('s length', s.length())
             return pos;
         } else {
             return -1;
